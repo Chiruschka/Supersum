@@ -14,6 +14,11 @@
         .character-card-container {
             margin-bottom: 20px;
         }
+
+        /* Style for the chapter info containers */
+        .chapter-info-container {
+            margin-bottom: 20px;
+        }
     </style>
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -63,19 +68,22 @@
         });
     </script>
 
+    <script>
+        // Function to load chapter info dynamically
+        function loadChapterInfo(url, placeholderId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(placeholderId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading chapter info:', error));
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
+        // Load chapter information when the document is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            loadChapterInfo('../../chapter_information_cards/chapter_195_info/195.html', 'chapter-195-information-placeholder');
+        });
+    </script>
 
 </head>
 
@@ -90,66 +98,20 @@
     <!-- Background Rectangle -->
     <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
 
-        <!-- Chapter info text -->
-        <div class="max-w-6xl mx-auto border-4 border-green-300 rounded-lg shadow-lg p-6 mb-6">
-            <div class="flex items-center">
-                <div class="w-20 h-20 flex justify-center items-center rounded-full border-4 border-green-300" style="background-color: #3b3a3a;">
-                    <!-- Icon (Could be a chapter number or a theme-specific image) -->
-                    <span class="text-2xl font-bold" style="color: #F1F1F1;"> 195 </span>
-                </div>
-                <div class="ml-4">
-                    <h2 class="text-3xl font-serif" style="color: #F1F1F1;">Otto I</h2>
-                </div>
-            </div>
-            
-            <div class="grid grid-cols-2 gap-4 mt-4 md:grid-cols-2 sm:grid-cols-1">
-                
-                <div>
-                    <p class="text-xl mb-2"><span class="font-bold text-green-300 text-xl">Word Count:</span> 3,000</p>
-                </div>
+        <!-- Placeholder for chapter info -->
+        <div class="chapter-info-container" id="chapter-195-information-placeholder"></div>
 
-                <div>
-                    <p class="text-xl mb-2"><span class="font-bold text-green-300 text-xl">Setting:</span> The Rambling Raven Bar & The Helping Paw HQ</p>
-                </div>
+        <!-- Placeholder for Otto's character card -->
+        <div class="character-card-container" id="otto-card-placeholder"></div>
 
-                <div>
-                    <p class="text-xl mb-2"><span class="font-bold text-green-300 text-xl">POV Character:</span> Otto M. Melodias</p>
-                </div>
+        <!-- Placeholder for Ocilia's character card -->
+        <div class="character-card-container" id="ocilia-card-placeholder"></div>
 
-                <div>
-                    <p class="text-xl mb-2"><span class="font-bold text-green-300 text-xl">Key Event:</span> After the Camp took over part of the island</p>
-                </div>
+        <!-- Placeholder for Aurum's character card -->
+        <div class="character-card-container" id="aurum-card-placeholder"></div>
 
-                <div class="col-span-2">
-                    <h3 class="text-green-300 text-xl font-bold mb-4 border-b-2 border-green-300">Synopsis</h3>
-                    <p class="text-xl">Otto talks with Alexander's retainers.</p>
-                </div>
-                
-            </div>
-        </div>
-
-
-
-    <!-- Placeholder for Otto's character card -->
-    <div class="character-card-container" id="otto-card-placeholder"></div>
-
-    <!-- Placeholder for Ocilia's character card -->
-    <div class="character-card-container" id="ocilia-card-placeholder"></div>
-
-    <!-- Placeholder for Aurum's character card -->
-    <div class="character-card-container" id="aurum-card-placeholder"></div>
-
-    <!-- Placeholder for Aurum's character card -->
-    <div class="character-card-container" id="ariana-card-placeholder"></div>
-
-
-
-
-
-
-
-
-
+        <!-- Placeholder for Ariana's character card -->
+        <div class="character-card-container" id="ariana-card-placeholder"></div>
 
     </div>
 
