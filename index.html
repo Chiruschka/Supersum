@@ -3,102 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supersum</title>
+    <title>Index: Supersum</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        function loadNavbar() {
+            fetch('header_footer_scrollbar/navigationbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadFooter() {
+            fetch('header_footer_scrollbar/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadScrollButton() {
+            fetch('header_footer_scrollbar/scrolling_top.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('scroll-button-placeholder').innerHTML = data;
+                });
+        }
+    </script>
 </head>
 
-<body class="text-white" style="background-color: #3b3a3a;">
+<body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;" onload="loadNavbar(); loadFooter(); loadScrollButton();">
 
-<!-- Navigation -->
-<div class="top-0 left-0 w-full flex flex-col md:flex-row items-center justify-center bg-gray-800 p-4 shadow-lg z-50" style="background-color: #616161;">
-  
-  <a href="https://chiruschka.github.io/Supersum/" class="inline-block mx-2 w-full md:w-32 py-2 md:py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold text-center hover:bg-gray-900 transition duration-300 mb-4 md:mb-0" style="color: #F1F1F1;">
-    <span>Home</span>
-  </a>
+    <!-- Placeholder for the Navbar -->
+    <div id="navbar-placeholder"></div>
 
-  <a href="https://chiruschka.github.io/Supersum/chapters/chapters_index/chapters_index" class="inline-block mx-2 w-full md:w-32 py-2 md:py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold text-center hover:bg-gray-900 transition duration-300 mb-4 md:mb-0" style="color: #F1F1F1;">
-    <span>Chapters</span>
-  </a>
+    <!-- Placeholder for the Scroll to Top Button -->
+    <div id="scroll-button-placeholder"></div>
 
-  <a href="#orbis" class="inline-block mx-2 w-full md:w-32 py-2 md:py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold text-center hover:bg-gray-900 transition duration-300 mb-4 md:mb-0" style="color: #F1F1F1;">
-    <span>Orbis</span>
-  </a>
+    <!-- Background Rectangle -->
+    <div class="relative p-4 flex flex-col md:flex-row items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+        <!-- Main content, e.g., book cover, description, etc. -->
+        <div class="w-full md:w-1/2 flex justify-center items-center rounded-md border-4" style="border-color: #3b3a3a;">
+            <img src="Ressources/Bookcover.png" class="w-full h-auto object-contain shadow-xl">
+        </div>
 
-  <a href="#contact" class="inline-block mx-2 w-full md:w-32 py-2 md:py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold text-center hover:bg-gray-900 transition duration-300 mb-4 md:mb-0" style="color: #F1F1F1;">
-    <span>Contact</span>
-  </a>
+        <!-- Right Side: Description -->
+        <div class="w-full md:w-1/2 pl-6">
+            <h2 class="text-xl md:text-3xl font-serif mb-2 font-bold border-b-2 border-white" style="color: #F1F1F1;">Description</h2>
+            <p class="font-serif text-base md:text-xl mb-4" style="color: #F1F1F1;">
+                Welcome to my humble website, which I, the author, use to create and host all kinds of resources for my webnovel.
+                <br><br>
+                Be it maps, system windows, cheat sheets, or many other resources that may come in handy and be much more interactive.
+                <br><br>
+                I also use this website to work on my web developer skills, and will try many more things here. As such, please enjoy it for perusing and other of your things.
+                <br>
+            </p>
 
-</div>
+            <!-- Right Side: Links -->
+            <div class="grid grid-cols-1 gap-2">
+                <h3 class="text-xl md:text-2xl font-bold mb-2 border-b-2 border-white" style="color: #F1F1F1;">Where can you read it?</h3>
+                <p class="font-serif text-base md:text-xl mb-4" style="color: #F1F1F1;">
+                    This is a short list on where you can read my novel, besides my website (still in the working for my website).
+                </p>
 
+                <!-- Reading Links -->
+                <a href="https://www.royalroad.com/fiction/51413/supersum-living-in-another-world-litrpg-transmigration" target="_blank" class="inline-block w-full md:w-1/2 px-4 py-2 md:px-8 md:py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold hover:bg-gray-900 transition duration-300" style="color: #F1F1F1;">
+                    <span>Link to Royal Road</span>
+                </a>
+                <br>
 
-    <!-- Floating Button / Scrolling to the top -->
-    <a href="#top" class="fixed bottom-4 right-4 font-bold py-2 px-4 rounded-full shadow-lg transition duration-300 z-50" style="background-color: #616161; color: #F1F1F1;">
-      ↑ Back to Top
-    </a>
+                <!-- Support Links -->
+                <h3 class="text-xl md:text-2xl font-bold mb-2 border-b-2" style="color: #F1F1F1;">Support</h3>
+                <p class="font-serif text-base md:text-xl mb-4" style="color: #F1F1F1;">
+                    If you want to support me, feel free to subscribe to my Patreon, for 5$/month (before taxes). You can then read 16 - 18 advanced chapters.
+                </p>
 
-    <!-- Background Rectangle-->
-    <div class="relative p-4 flex flex-col md:flex-row items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161;">
-
-    <!-- Left Side: Bookcover Image -->
-    <div class="w-full md:w-1/2 flex justify-center items-center rounded-md border-4" style="border-color: #3b3a3a;">
-        <img src="Ressources/Bookcover.png" class="w-full h-auto object-contain shadow-xl">
+                <a href="https://www.patreon.com/user?u=95044054" target="_blank" class="inline-block w-full md:w-1/2 px-4 py-2 md:px-8 md:py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold hover:bg-gray-900 transition duration-300" style="color: #F1F1F1;">
+                    <span>Link to my Patreon</span>
+                </a>
+                <br>
+            </div>
+        </div>
     </div>
-    
-    <!-- Right Side: Description -->
-    <div class="w-full md:w-1/2 pl-6">
-      <h2 class="text-xl md:text-3xl font-serif mb-2 font-bold border-b-2 border-white" style="color: #F1F1F1;" >Description</h2>
-      <p class="font-serif text-base md:text-xl mb-4" style="color: #F1F1F1;"> 
 
-        Welcome to my humble website, which I, the author use to<br>                                                          
-        create and host all kinds of ressources for my webnovel.                                        
-        <br> <br>                                                           
-        Be it maps, system windows, cheat sheets, or many other <br>                                                         
-        ressources that may come handy and be much more interactive.                                                          
-        <br> <br>                                                          
-        I also use this website to work on my webdeveloper skills, and <br>                                                          
-        will try many more things here. As such, please enjoy it for <br>                                                          
-        perusing and other of your things.                                                           
-        <br>                                                            
-      </p>
-      
-      <!-- Right Side: Links -->
-      <div class="grid grid-cols-1 gap-2">
-  
-        <!-- Where to read? -->
-        <h3 class="text-xl md:text-2xl font-bold mb-2 border-b-2 border-white" style="color: #F1F1F1;">Where can you read it?</h3>
-
-        <p class="font-serif text-base md:text-xl mb-4" style="color: #F1F1F1;"> 
-
-          This is a short list on where you can read my novel, besides my
-          website (still in the working for my website).                                                     
-                                             
-        </p>
-
-        <!-- Reading Links -->
-        <a href="https://www.royalroad.com/fiction/51413/supersum-living-in-another-world-litrpg-transmigration" target="_blank" class="inline-block w-full md:w-1/2 px-4 py-2 md:px-8 md:py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold hover:bg-gray-900 transition duration-300" style="color: #F1F1F1;">
-          <span>Link to Royal Road</span>
-        </a>
-        <br>
-
-        <!-- Support -->
-        <h3 class="text-xl md:text-2xl font-bold mb-2 border-b-2" style="color: #F1F1F1;">Support</h3>
-
-        <p class="font-serif text-base md:text-xl mb-4" style="color: #F1F1F1;"> 
-
-          If you want to support me, feel free to subscribe to my Patreon, 
-          for 5$/month (before taxes). You can then read 16 - 18 advanced 
-          chapters.
-                             
-        </p>
-
-        <!-- Support Links -->
-        <a href="https://www.patreon.com/user?u=95044054" target="_blank" class="inline-block w-full md:w-1/2 px-4 py-2 md:px-8 md:py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold hover:bg-gray-900 transition duration-300" style="color: #F1F1F1;">
-          <span>Link to my Patreon</span>
-        </a>
-        <br>
-        
-      </div>
-    </div>
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder" style="width: 100%; flex-shrink: 0;"></div>
 
 </body>
 </html>
