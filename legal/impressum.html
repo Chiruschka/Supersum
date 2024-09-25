@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum</title>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function loadNavbar() {
+            fetch('/Supersum/header_footer_scrollbar/navigationbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadFooter() {
+            fetch('/Supersum/header_footer_scrollbar/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadScrollButton() {
+            fetch('/Supersum/header_footer_scrollbar/scrolling_top.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('scroll-button-placeholder').innerHTML = data;
+                });
+        }
+    </script>
+
+
+</head>
+
+<body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;" onload="loadNavbar(); loadFooter(); loadScrollButton();">
+
+    <!-- Placeholder for the Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Placeholder for the Scroll to Top Button -->
+    <div id="scroll-button-placeholder"></div>
+
+    <!-- Background Rectangle -->
+    <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+
+
+        <div class="container"></div>
+            
+    
+            <!-- Website Owner Section -->
+            <div class="impressum-section">
+                <h1><strong>Impressum</strong></h1><br>
+                <h2><strong> Owner / This website is hosted on GitHub Pages</strong></h2>
+                <p>
+                    <strong>Name:</strong> Chiril Kret<br>
+                    <strong>Street:</strong> Coppistraße 20<br>
+                    <strong>Additional:</strong> Vo-Nr. 728-20-09-10<br>
+                    <strong>Zip code & City:</strong> 10365, Berlin<br>
+                    <strong>Country:</strong> Germany
+                
+                </p><br>
+
+                <h2><strong>Contact Information</strong></h2>
+                <p>
+                    <strong>Phone:</strong> <a href="moblile: +49 176 411 32 534">+49 176 411 32 534</a><br>
+                    <strong>E-Mail:</strong> <a href="mailto:chiruschka.novel@gmail.com">chiruschka.novel@gmail.com</a><br>
+                </p><br>
+
+                <h2><strong>Disclaimer</strong></h2>
+                <p>
+                    The contents of this website are created with the greatest care. However, I do not guarantee <br> 
+                    the accuracy, completeness, or up-to-dateness of the content. As an author, I am responsible <br> 
+                    for our own content on these pages according to general laws. We are not obliged to monitor <br> 
+                     transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. <br> 
+                </p><br> 
+                <h2><strong>Links to External Websites</strong></h2>
+                <p>
+                    Our website contains links to external websites. We have no influence on the content of these external<br>
+                    websites and therefore cannot accept any liability for their content. The respective provider or operator<br>
+                    of the linked sites is always responsible for the content of the linked pages.
+                </p>
+                
+
+
+
+
+
+
+            </div>
+    
+    </div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder" style="width: 100%; flex-shrink: 0;"></div>
+
+</body>
+</html>

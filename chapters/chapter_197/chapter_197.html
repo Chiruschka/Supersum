@@ -3,7 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 193</title>
+    <title>Chapter 197</title>
+    <style>
+        /* Basic Reset */
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        /* Style for the card containers */
+        .character-card-container {
+            margin-bottom: 20px;
+        }
+
+        /* Style for the chapter info containers */
+        .chapter-info-container {
+            margin-bottom: 20px;
+        }
+    </style>
+
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         function loadNavbar() {
@@ -30,6 +48,16 @@
                 });
         }
     </script>
+
+<script>
+    fetch('/Supersum/system_window/197/otto.svg')
+        .then(response => response.text())
+        .then(svg => {
+            document.getElementById('svg-container').innerHTML = svg;
+        });
+</script>
+
+
 </head>
 
 <body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;" onload="loadNavbar(); loadFooter(); loadScrollButton();">
@@ -41,20 +69,10 @@
     <div id="scroll-button-placeholder"></div>
 
     <!-- Background Rectangle -->
-    <div class="relative p-4 flex flex-col md:flex-row items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+    <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+
+        <div id="svg-container"></div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Footer Placeholder -->
     <div id="footer-placeholder" style="width: 100%; flex-shrink: 0;"></div>

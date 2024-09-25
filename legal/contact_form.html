@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 193</title>
+    <title>Impressum</title>
+
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         function loadNavbar() {
@@ -30,6 +32,8 @@
                 });
         }
     </script>
+
+
 </head>
 
 <body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;" onload="loadNavbar(); loadFooter(); loadScrollButton();">
@@ -41,20 +45,23 @@
     <div id="scroll-button-placeholder"></div>
 
     <!-- Background Rectangle -->
-    <div class="relative p-4 flex flex-col md:flex-row items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+    <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+
+        <form action="mailto:chiruschka.novel@gmail.com" method="POST" enctype="text/plain">
+            <label class="block mb-2 text-sm font-bold">Name</label>
+            <input type="text" name="name" class="w-full px-4 py-2 mb-4 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" required>
+        
+            <label class="block mb-2 text-sm font-bold">Email</label>
+            <input type="email" name="email" class="w-full px-4 py-2 mb-4 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email" required>
+        
+            <label class="block mb-2 text-sm font-bold">Message</label>
+            <textarea name="message" class="w-full px-4 py-2 mb-4 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Message" rows="4" required></textarea>
+        
+            <button type="submit" class="w-full py-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition duration-300 font-bold">Send Message</button>
+        </form>
+        
+
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Footer Placeholder -->
     <div id="footer-placeholder" style="width: 100%; flex-shrink: 0;"></div>

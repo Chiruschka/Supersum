@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function loadNavbar() {
+            fetch('/Supersum/header_footer_scrollbar/navigationbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadFooter() {
+            fetch('/Supersum/header_footer_scrollbar/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadScrollButton() {
+            fetch('/Supersum/header_footer_scrollbar/scrolling_top.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('scroll-button-placeholder').innerHTML = data;
+                });
+        }
+    </script>
+
+
+</head>
+
+<body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;" onload="loadNavbar(); loadFooter(); loadScrollButton();">
+
+    <!-- Placeholder for the Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Placeholder for the Scroll to Top Button -->
+    <div id="scroll-button-placeholder"></div>
+
+    <!-- Background Rectangle -->
+    <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+
+
+        <p>
+
+            Privacy Policy <br>
+            <br>
+            Controller for Data Processing:
+            [Your Name or Company]
+            [Your Contact Information]
+            
+            Privacy Overview:
+            
+            This website is an informational platform for my web novel and the resources provided on it. We do not collect or store any personal data, except for the data that is technically necessary to enable the visit to the website.
+            
+            What data is collected?
+            
+            Technical Data: When visiting the website, information such as your IP address, browser type, operating system, and access time is automatically collected. This information is necessary to ensure the functionality of the website.
+            Use of Cookies:
+            
+            This website does not use cookies or tracking technologies to store personal data.
+            
+            Data Security:
+            
+            We implement technical and organizational measures to ensure the security of the website and your data. No personal data is stored or processed.
+            
+            Rights of Individuals:
+            
+            Since no personal data is collected, there are no specific rights such as access, rectification, or deletion relevant in this context.
+            
+            Contact:
+            
+            If you have any questions about privacy, you can reach us at [Contact Information].
+        
+        
+        
+        
+        
+            Datenschutzerklärung
+            Verantwortlicher für die Datenverarbeitung: [Dein Name oder Unternehmen]
+            [Deine Kontaktinformationen]
+            
+            Datenschutz auf einen Blick:
+            
+            Diese Website dient als Informationsplattform für meine Webnovel und die darauf bereitgestellten Ressourcen. Wir erheben und speichern keine personenbezogenen Daten, außer denjenigen, die technisch notwendig sind, um den Besuch der Website zu ermöglichen.
+            
+            Welche Daten werden erfasst?
+            
+            Technische Daten: Beim Besuch der Website werden automatisch Informationen wie Ihre IP-Adresse, Browsertyp, Betriebssystem und Zugriffszeit erfasst. Diese Informationen sind notwendig, um die Funktionsfähigkeit der Website zu gewährleisten.
+            Verwendung von Cookies:
+            
+            Diese Website verwendet keine Cookies oder Tracking-Technologien, um personenbezogene Daten zu speichern.
+            
+            Datensicherheit:
+            
+            Wir setzen technische und organisatorische Maßnahmen ein, um die Sicherheit der Website und Ihrer Daten zu gewährleisten. Es werden keine personenbezogenen Daten gespeichert oder verarbeitet.
+            
+            Rechte der betroffenen Personen:
+            
+            Da keine personenbezogenen Daten erfasst werden, gibt es keine besonderen Rechte wie Auskunft, Berichtigung oder Löschung, die in diesem Zusammenhang relevant wären.
+            
+            Kontakt:
+            
+            Falls Sie Fragen zum Datenschutz haben, können Sie uns unter [Kontaktinformationen] erreichen.
+        
+        
+        </p>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    </div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder" style="width: 100%; flex-shrink: 0;"></div>
+
+</body>
+</html>
