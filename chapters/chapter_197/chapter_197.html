@@ -49,13 +49,52 @@
         }
     </script>
 
-<script>
-    fetch('/Supersum/system_window/197/otto.svg')
-        .then(response => response.text())
-        .then(svg => {
-            document.getElementById('svg-container').innerHTML = svg;
+    <script>
+        // Function to load chapter info dynamically
+        function loadChapterInfo(url, placeholderId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(placeholderId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading chapter info:', error));
+        }
+
+        // Load chapter information when the document is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            loadChapterInfo('../../chapter_information_cards/chapter_197_info/197.html', 'chapter-197-information-placeholder');
         });
-</script>
+    </script>
+
+    <script>
+        // Function to load a character card dynamically
+        function loadCharacterCard(url, placeholderId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(placeholderId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading character card:', error));
+        }
+
+        // Load multiple character cards when the document is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCharacterCard('../../character_cards/otto/otto_old_1.html', 'otto-card-placeholder');
+            loadCharacterCard('../../character_cards/narsiz/narsiz_young_3.html', 'narsiz-card-placeholder');
+            loadCharacterCard('../../character_cards/maurice/maurice_old_1.html', 'maurice-card-placeholder');
+            loadCharacterCard('../../character_cards/alexander/alexander_young_2.html', 'alexander-card-placeholder');
+
+        });
+
+    </script>
+
+    <script>
+        fetch('/Supersum/system_window/197/otto.svg')
+            .then(response => response.text())
+            .then(svg => {
+                document.getElementById('svg-container').innerHTML = svg;
+            });
+    </script>
 
 
 </head>
@@ -70,6 +109,37 @@
 
     <!-- Background Rectangle -->
     <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+
+        <!-- Placeholder for chapter info -->
+        <div class="chapter-info-container" id="chapter-197-information-placeholder"></div>
+
+        <!-- Placeholder for Otto's character card -->
+        <div class="character-card-container" id="otto-card-placeholder"></div>
+
+        <!-- Placeholder for Narsiz's character card -->
+        <div class="character-card-container" id="narsiz-card-placeholder"></div>
+
+        <!-- Placeholder for Maurice's character card -->
+        <div class="character-card-container" id="maurice-card-placeholder"></div>
+
+        <!-- Placeholder for Alexander's character card -->
+        <div class="character-card-container" id="alexander-card-placeholder"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div id="svg-container"></div>
     </div>

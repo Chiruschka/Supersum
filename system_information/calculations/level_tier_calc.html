@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level and Tier Calculation</title>
+    <style>
+        /* Basic Reset */
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        /* Style for the card containers */
+        .character-card-container {
+            margin-bottom: 20px;
+        }
+
+        /* Style for the chapter info containers */
+        .chapter-info-container {
+            margin-bottom: 20px;
+        }
+
+        /* Input styling */
+        input[type="number"] {
+            background-color: #4a4a4a;
+            color: white;
+            border: 1px solid #888;
+        }
+
+        /* Result box styling */
+        #result {
+            color: white;
+        }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function calculateLevelTier() {
+            // Get the total experience input and handle invalid input
+            let totalExperience = parseInt(document.getElementById("totalExperience").value);
+            if (isNaN(totalExperience) || totalExperience < 0) {
+                document.getElementById("result").innerHTML = 'Please enter a valid number for total experience.';
+                return;
+            }
+
+            // Default values
+            let tier = 1;
+            let levelExperience = 100;
+            let maxLevel = 50;
+            let level = 1;
+            let nextLevelExperience = 0;
+
+            let i = 0;
+
+            // Experience Runner
+            while (i < totalExperience) {
+                i += levelExperience;
+
+                // Break if i exceeds total experience and calculate next level experience
+                if (i > totalExperience) {
+                    nextLevelExperience = i - totalExperience;
+                    break;
+                }
+
+                level += 1;
+
+                // Level and Tier Calculation
+                if (level > maxLevel) {
+                    tier += 1;
+                    levelExperience = tier * 100;
+                    maxLevel += tier * 50;
+                }
+            }
+
+            // Display the results
+            document.getElementById("result").innerHTML = `
+                Level = ${level} <br>
+                Max Level = ${maxLevel} <br>
+                Tier = ${tier} <br>
+                Current Experience = ${totalExperience} <br>
+                Experience to next Level = ${nextLevelExperience}
+            `;
+        }
+    </script>
+</head>
+
+<body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;">
+    <!-- Background Rectangle -->
+    <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+        <h2 class="text-2xl mb-4">Level and Tier Calculation</h2>
+
+        <!-- Input for total experience -->
+        <input type="number" id="totalExperience" placeholder="Enter Total Experience" class="p-2 rounded border mb-4">
+        
+        <!-- Button to calculate -->
+        <button onclick="calculateLevelTier()" class="p-2 bg-blue-500 rounded">Calculate</button>
+        
+        <!-- Display the results -->
+        <div id="result" class="mt-4"></div>
+    </div>
+</body>
+</html>

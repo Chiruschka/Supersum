@@ -24,7 +24,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         function loadNavbar() {
-            fetch('../../header_footer_scrollbar/navigationbar.html')
+            fetch('/Supersum/header_footer_scrollbar/navigationbar.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('navbar-placeholder').innerHTML = data;
@@ -32,7 +32,7 @@
         }
 
         function loadFooter() {
-            fetch('../../header_footer_scrollbar/footer.html')
+            fetch('/Supersum/header_footer_scrollbar/footer.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('footer-placeholder').innerHTML = data;
@@ -40,7 +40,7 @@
         }
 
         function loadScrollButton() {
-            fetch('../../header_footer_scrollbar/scrolling_top.html')
+            fetch('/Supersum/header_footer_scrollbar/scrolling_top.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('scroll-button-placeholder').innerHTML = data;

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physical Skill Category</title>
+    <style>
+        /* Basic Reset */
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Skill Grid */
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(8, 70px); /* 8 rows, 70px each */
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .skill-item {
+            background-color: #4a4a4a;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s;
+        }
+
+        .skill-item:hover, .skill-item.active {
+            transform: scale(1.05);
+            background-color: #555;
+        }
+
+        /* Tooltip for skill descriptions */
+        .description-box {
+            grid-column: 1 / 4;
+            grid-row: 8;
+            background-color: #616161;
+            color: white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            display: none; /* Initially hidden */
+        }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function loadNavbar() {
+            fetch('/Supersum/header_footer_scrollbar/navigationbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadFooter() {
+            fetch('/Supersum/header_footer_scrollbar/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadScrollButton() {
+            fetch('/Supersum/header_footer_scrollbar/scrolling_top.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('scroll-button-placeholder').innerHTML = data;
+                });
+        }
+
+        // Toggle description and highlight skill item
+        function showDescription(skill, element) {
+            const descriptionBox = document.getElementById('description-box');
+            const skillItems = document.querySelectorAll('.skill-item');
+
+            // Clear active class from all items
+            skillItems.forEach(item => item.classList.remove('active'));
+
+            // Set the clicked item as active
+            element.classList.add('active');
+
+            // Set description text based on the clicked skill
+            let description;
+            switch (skill) {
+                case 'Vitality Enhancement':
+                    description = 'Increases the vitality of the user, enhancing stamina and physical endurance.';
+                    break;
+                case 'Flexibility Enhancement':
+                    description = 'Improves the flexibility of the user, allowing for more agile movements.';
+                    break;
+                case 'Stamina Enhancement':
+                    description = 'Boosts the user\'s overall stamina, reducing fatigue over time.';
+                    break;
+                case 'Balance Enhancement':
+                    description = 'Enhances balance, improving coordination and movement efficiency.';
+                    break;
+                case 'Enhanced Endurance Recovery':
+                    description = 'Reduces the time needed for recovering physical endurance after strenuous activities.';
+                    break;
+                case 'Muscle Enhancement':
+                    description = 'Strengthens muscle tissue, increasing physical strength and performance.';
+                    break;
+                case 'Cold Resistance':
+                    description = 'Grants resistance to cold temperatures, reducing damage from ice-based attacks.';
+                    break;
+                case 'Heat Resistance':
+                    description = 'Increases tolerance to extreme heat, reducing damage from fire and hot environments.';
+                    break;
+                case 'Hex Resistance':
+                    description = 'Protects the user from curses and hexes, weakening their effects.';
+                    break;
+                case 'Curse Resistance':
+                    description = 'Provides resistance to curses, reducing the effects of dark and malicious magic.';
+                    break;
+                case 'Poison Resistance':
+                    description = 'Boosts immunity to poisons, reducing the effect of toxins in the body.';
+                    break;
+                case 'Corrosion Resistance':
+                    description = 'Reduces damage from corrosive substances, including acids and decay-based attacks.';
+                    break;
+                case 'Disease Resistance':
+                    description = 'Increases resistance to illnesses and disease, preventing the spread of infection.';
+                    break;
+                case 'Abnormal Status Resistance':
+                    description = 'Protects the user from various abnormal status effects like paralysis, confusion, etc.';
+                    break;
+                case 'Body Reinforcement':
+                    description = 'Strengthens the overall physical structure of the body, improving toughness and resilience.';
+                    break;
+                case 'Mana (Organs) Reinforcement':
+                    description = 'Strengthens the user’s organs by enhancing their mana flow, improving their functionality.';
+                    break;
+                case 'Fracture Resistance':
+                    description = 'Increases bone strength, reducing the chances of fractures or breaking bones.';
+                    break;
+                case 'Skin Hardening':
+                    description = 'Hardens the skin, providing a natural armor that reduces physical damage.';
+                    break;
+                case 'Enhanced Blood Coagulation':
+                    description = 'Increases blood clotting speed, helping wounds heal faster and reducing blood loss.';
+                    break;
+                case 'Enhanced General Self-Healing':
+                    description = 'Accelerates overall healing processes, allowing the body to recover quickly from injuries.';
+                    break;
+                case 'Sensory Recovering':
+                    description = 'Improves the recovery rate of sensory functions, such as sight and hearing, after damage.';
+                    break;
+                case 'Self-Detoxification':
+                    description = 'Allows the body to rapidly remove toxins and poisons from the system, enhancing recovery.';
+                    break;
+                case 'Enhanced Bone Mending':
+                    description = 'Greatly increases the speed at which broken bones heal, reducing recovery time.';
+                    break;
+                default:
+                    description = 'No description available.';
+            }
+
+            // Display the description in the box
+            descriptionBox.innerText = description;
+            descriptionBox.style.display = 'block';
+        }
+    </script>
+
+</head>
+
+<body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;" onload="loadNavbar(); loadFooter(); loadScrollButton();">
+
+    <!-- Placeholder for the Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Placeholder for the Scroll to Top Button -->
+    <div id="scroll-button-placeholder"></div>
+
+    <!-- Background Rectangle -->
+    <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+
+        <!-- Skill Grid Section -->
+        <h2 class="text-2xl font-bold mb-4">Physical Category</h2>
+        <div class="skill-grid">
+
+            <!-- Physical Strengthening Grid Section -->
+            <h2 class="text-xl font-bold mb-4" style="grid-column: 1; grid-row: 1;">Physical Strengthening</h2>
+
+            <div class="skill-item" onclick="showDescription('Vitality Enhancement', this)" style="grid-column: 1; grid-row: 2;">
+                Vitality Enhancement
+            </div>   
+            
+            <div class="skill-item" onclick="showDescription('Flexibility Enhancement', this)" style="grid-column: 1; grid-row: 3;">
+                Flexibility Enhancement
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Stamina Enhancement', this)" style="grid-column: 1; grid-row: 4;">
+                Stamina Enhancement
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Balance Enhancement', this)" style="grid-column: 1; grid-row: 5;">
+                Balance Enhancement
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Enhanced Endurance Recovery', this)" style="grid-column: 1; grid-row: 6;">
+                Enhanced Endurance Recovery
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Muscle Enhancement', this)" style="grid-column: 1; grid-row: 7;">
+                Muscle Enhancement
+            </div>   
+
+            <!-- Physical Resistances Grid Section -->
+            <h2 class="text-xl font-bold mb-4 " style="grid-column: 2 / 3; grid-row: 1;">Physical Resistances</h2>
+
+            <div class="skill-item" onclick="showDescription('Cold Resistance', this)" style="grid-column: 2; grid-row: 2;">
+                Cold Resistance
+            </div>   
+            
+            <div class="skill-item" onclick="showDescription('Heat Resistance', this)" style="grid-column: 2; grid-row: 3;">
+                Heat Resistance
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Hex Resistance', this)" style="grid-column: 2; grid-row: 4;">
+                Hex Resistance
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Curse Resistance', this)" style="grid-column: 3; grid-row: 2;">
+                Curse Resistance
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Poison Resistance', this)" style="grid-column: 3; grid-row: 3;">
+                Poison Resistance
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Corrosion Resistance', this)" style="grid-column: 3; grid-row: 4;">
+                Corrosion Resistance
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Disease Resistance', this)" style="grid-column: 2; grid-row: 5;">
+                Disease Resistance
+            </div>   
+            
+            <div class="skill-item" onclick="showDescription('Abnormal Status Resistance', this)" style="grid-column: 2; grid-row: 6;">
+                Abnormal Status Resistance
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Body Reinforcement', this)" style="grid-column: 3; grid-row: 7;">
+                Body Reinforcement
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Mana (Organs) Reinforcement', this)" style="grid-column: 2; grid-row: 7;">
+                Mana (Organs) Reinforcement
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Fracture Resistance', this)" style="grid-column: 3; grid-row: 5;">
+                Fracture Resistance
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Skin Hardening', this)" style="grid-column: 3; grid-row: 6;">
+                Skin Hardening
+            </div>   
+
+            <!-- Self-Healing (Physical) Grid Section -->
+            <h2 class="text-xl font-bold mb-4" style="grid-column: 4; grid-row: 1;">Self-Healing (Physical)</h2>
+
+            <div class="skill-item" onclick="showDescription('Enhanced Blood Coagulation', this)" style="grid-column: 4; grid-row: 2;">
+                Enhanced Blood Coagulation
+            </div>   
+            
+            <div class="skill-item" onclick="showDescription('Enhanced General Self-Healing', this)" style="grid-column: 4; grid-row: 3;">
+                Enhanced General Self-Healing
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Sensory Recovering', this)" style="grid-column: 4; grid-row: 4;">
+                Sensory Recovering
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Self-Detoxification', this)" style="grid-column: 4; grid-row: 5;">
+                Self-Detoxification
+            </div>   
+
+            <div class="skill-item" onclick="showDescription('Enhanced Bone Mending', this)" style="grid-column: 4; grid-row: 6;">
+                Enhanced Bone Mending
+            </div>   
+
+        </div>
+
+        <!-- Description Outside of Grid -->
+        <div class="description-box" id="description-box"></div>        
+
+    </div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder" style="width: 100%; flex-shrink: 0;"></div>
+
+</body>
+</html>
