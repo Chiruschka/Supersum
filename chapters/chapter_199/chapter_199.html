@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 199</title>
+    <style>
+        /* Basic Reset */
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        /* Style for the card containers */
+        .character-card-container {
+            margin-bottom: 20px;
+        }
+
+        /* Style for the chapter info containers */
+        .chapter-info-container {
+            margin-bottom: 20px;
+        }
+    </style>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function loadNavbar() {
+            fetch('/Supersum/header_footer_scrollbar/navigationbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadFooter() {
+            fetch('/Supersum/header_footer_scrollbar/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadScrollButton() {
+            fetch('/Supersum/header_footer_scrollbar/scrolling_top.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('scroll-button-placeholder').innerHTML = data;
+                });
+        }
+    </script>
+
+    <script>
+        // Function to load chapter info dynamically
+        function loadChapterInfo(url, placeholderId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(placeholderId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading chapter info:', error));
+        }
+
+        // Load chapter information when the document is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            loadChapterInfo('../../chapter_information_cards/chapter_199_info/199.html', 'chapter-199-information-placeholder');
+        });
+    </script>
+
+    <script>
+        // Function to load a character card dynamically
+        function loadCharacterCard(url, placeholderId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(placeholderId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading character card:', error));
+        }
+
+        // Load multiple character cards when the document is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCharacterCard('../../character_cards/naza/naza_young_1.html', 'naza-card-placeholder');
+            loadCharacterCard('../../character_cards/alexander/alexander_young_2.html', 'alexander-card-placeholder');
+
+        });
+
+    </script>
+
+</head>
+
+<body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;" onload="loadNavbar(); loadFooter(); loadScrollButton();">
+
+    <!-- Placeholder for the Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Placeholder for the Scroll to Top Button -->
+    <div id="scroll-button-placeholder"></div>
+
+    <!-- Background Rectangle -->
+    <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
+
+        <!-- Placeholder for chapter info -->
+        <div class="chapter-info-container" id="chapter-199-information-placeholder"></div>
+
+        <!-- Placeholder for Naza's character card -->
+        <div class="character-card-container" id="naza-card-placeholder"></div>
+
+        <!-- Placeholder for Alexander's character card -->
+        <div class="character-card-container" id="alexander-card-placeholder"></div>
+
+    </div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder" style="width: 100%; flex-shrink: 0;"></div>
+
+</body>
+</html>

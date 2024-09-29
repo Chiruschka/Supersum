@@ -3,23 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter xxx</title>
+    <title>Mental Skills Index</title>
+
     <style>
         /* Basic Reset */
         html, body {
             margin: 0;
             padding: 0;
         }
-        /* Style for the card containers */
-        .character-card-container {
-            margin-bottom: 20px;
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
         }
 
-        /* Style for the chapter info containers */
-        .chapter-info-container {
-            margin-bottom: 20px;
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4a4a4a;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Responsive table layout */
+        @media (max-width: 768px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
         }
     </style>
+
+
+
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -48,7 +78,6 @@
         }
     </script>
 
-
 </head>
 
     <body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;" onload="loadNavbar(); loadFooter(); loadScrollButton();">
@@ -62,6 +91,21 @@
         <!-- Background Rectangle -->
         <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
 
+            <h2 class="text-2xl font-bold mb-4">Skills by Category</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mental Resistances</th>
+                        <th>Mental Fortitude</th>
+                        <th>Mental Strengthening</th>
+                        <th>Mental Recovery</th>
+                        <th>Mental Manipulation</th>
+                    </tr>
+                </thead>
+                <tbody id="skills-table-body"></tbody>
+            </table>
+        
 
 
 
@@ -69,6 +113,8 @@
 
 
 
+            <!-- Load the script at the end of the body -->
+            <script src="get_skills.js"></script>
 
         <!-- Background Rectangle End -->
         </div>

@@ -1,0 +1,267 @@
+[
+
+        {
+            "main_name": "Mental Resistances",
+            "main_description": "These are skills that represent a person’s ability to withstand various mental pressures or attacks, effectively reducing the impact of these forces."
+        },
+        {
+            "name": "Pain Resistance",
+            "description": "This skill allows the person to reduce the mental toll of physical pain, enabling them to function effectively even under intense duress. While it doesn’t eliminate the sensation fully, it helps them maintain focus and avoid panic when injured or subjected to torture."
+        },
+        {
+            "name": "Stress Resistance",
+            "description": "This skill grants the person the ability to withstand high levels of emotional and mental stress without cracking under pressure. They can manage tasks in high-stakes or dangerous situations without succumbing to nervous breakdowns or mental fatigue."
+        },
+        {
+            "name": "Sleep Resistance",
+            "description": "The person can stay mentally sharp and alert despite long periods of sleep deprivation. While they still need sleep to function, this skill significantly delays the negative cognitive effects of sleep loss, allowing them to push through for extended periods when necessary."
+        },
+        {
+            "name": "Psi-Resistance",
+            "description": "This skill reduces the person’s susceptibility to mental attacks, such as telepathic influence, mind control, or psychic manipulation. The person can block, deflect, or minimize the effects of psionic powers that target their mind."
+        },
+        {
+            "name": "Panic Resistance",
+            "description": "With this skill, the person can maintain a calm, level-headed approach even in the most fear-inducing or overwhelming situations. This resistance makes it difficult for them to be overtaken by blind fear, hysteria, or extreme anxiety in combat or disasters."
+        },
+        {
+            "name": "Mind Over Matter",
+            "description": "This skill allows the person to push through intense mental or physical hardship purely by willpower. They can override their body's signals—such as hunger, thirst, exhaustion, or pain—through sheer mental determination, extending their limits far beyond the norm. However, prolonged use can cause physical or mental damage if pushed too far."
+        },
+        {
+            "name": "Fear Resistance",
+            "description": "The person can resist paralyzing fear caused by natural or supernatural sources. While they may still feel fear, it won’t cripple their ability to act, think clearly, or make decisions in life-threatening or terrifying circumstances."
+        },
+        {
+            "name": "Despair Resistance",
+            "description": "This skill protects the person from falling into states of deep hopelessness or emotional paralysis. Even in the bleakest situations, the person can push forward, avoiding the mental collapse that often accompanies profound despair."
+        },
+        {
+            "name": "Hypnosis Resistance",
+            "description": "This skill grants the person a heightened resistance to hypnotic suggestions, making it difficult for others to lull them into a trance or control their behavior through hypnotism or similar techniques."
+        },
+        {
+            "name": "Memory Alteration Resistance",
+            "description": "The person is resistant to mental powers that alter or erase memories. Whether someone attempts to implant false memories or erase specific events from their mind, this skill allows the person to hold on to their original memories or detect tampering."
+        },
+        {
+            "name": "Mind-Numbing Resistance",
+            "description": "This skill protects the person from mental states that reduce cognitive function, such as spells or substances designed to dull their mind or prevent critical thinking. With this resistance, they maintain clarity and focus, even when attacked by mind-numbing forces."
+        },
+        {
+            "Main_name": "Mental Fortitude",
+            "Main_description": "These skills represent a person’s mental strength, resilience, and capacity to endure difficult circumstances while maintaining their composure and effectiveness."
+        },
+        {
+            "name": "Grit",
+            "description": "The person possesses a deep-seated mental toughness that allows them to endure prolonged hardship without giving up. This skill enhances their ability to stay committed to long-term goals, even when faced with seemingly insurmountable obstacles. Grit is the foundation of their perseverance."
+        },
+        {
+            "name": "Tenacity",
+            "description": "Tenacity gives the person the capacity to hold on tightly to a course of action, belief, or goal, even in the face of adversity in the short term. This skill reflects the mental drive to pursue their objectives with unyielding determination, refusing to let setbacks derail them."
+        },
+        {
+            "name": "Perseverance",
+            "description": "Perseverance enhances the person’s ability to keep pushing forward, even when all odds are stacked against them. It ensures they continue their efforts despite multiple failures, rejections, or repeated attempts, keeping their focus on the end goal."
+        },
+        {
+            "name": "Fortitude",
+            "description": "This skill represents the person’s overall mental strength and endurance. Fortitude allows them to weather severe mental, emotional, or physical pain while staying on course. It's the bedrock of resilience, ensuring they don’t break under pressure but maintain a steady resolve."
+        },
+        {
+            "name": "Mental Toughness",
+            "description": "Mental Toughness (Before: Mental Control) allows the person to handle high levels of mental and emotional strain without breaking down. This skill helps them stay mentally unshaken when enduring heavy burdens or performing under extreme pressure."
+        },
+        {
+            "name": "Determination",
+            "description": "Determination sharpens the person’s ability to pursue their goals with focused intent. It allows them to push through distractions, doubts, and obstacles, maintaining laser-like focus on what needs to be achieved, no matter how challenging the path becomes."
+        },
+        {
+            "name": "Courage",
+            "description": "Courage gives the person the mental strength to face danger, fear, or the unknown without hesitation. It allows them to make brave decisions in the face of danger, taking calculated risks even when the outcome is uncertain. This skill reflects inner bravery rather than physical fearlessness."
+        },
+        {
+            "name": "Patience",
+            "description": "This skill grants the person the mental capacity to remain calm and collected over extended periods of waiting or delay. Patience allows them to endure slow progress, repetitive tasks, or frustrating situations without growing anxious or impulsive."
+        },
+        {
+            "name": "Discipline",
+            "description": "Discipline ensures the person can maintain strict control over their impulses, desires, and actions to achieve long-term goals. This skill strengthens their ability to follow routines, practice restraint, and make consistent efforts toward self-improvement or mission objectives."
+        },
+        {
+            "name": "Self-Control",
+            "description": "Self-Control grants the person mastery over their emotions, impulses, and reactions. They can prevent anger, fear, or passion from clouding their judgment, keeping a clear and rational mind even in emotionally charged situations (short-term)."
+        },
+        {
+            "name": "Self-Motivation",
+            "description": "With this skill, the person can sustain high levels of mental energy and determination, even without external encouragement or incentives. Self-Motivation empowers them to keep striving toward their goals without needing others to push them forward."
+        },
+        {
+            "name": "Adaptability",
+            "description": "Adaptability enhances the person’s ability to mentally adjust to sudden changes or unexpected challenges. They can quickly recalibrate their mindset and strategies when confronted with new information, environments, or crises without feeling overwhelmed or defeated."
+        },
+        {
+            "name": "Focus Under Pressure",
+            "description": "This skill grants the person the ability to stay mentally sharp and focused in the most stressful or chaotic circumstances. They can block out distractions, control their emotions, and concentrate on the task at hand, making them highly effective in high-pressure environments."
+        },
+        {
+            "main_name": "Mental Strengthening",
+            "main_description": "These skills focus on improving and enhancing mental capabilities, allowing for better cognition, perception, and decision-making."
+        },
+        {
+            "name": "Concentration",
+            "description": "The person can focus intensely on a single task or goal, blocking out all distractions and maintaining their attention for long periods. This skill increases productivity and effectiveness in situations that require sustained mental effort."
+        },
+        {
+            "name": "Focus Enhancement",
+            "description": "This skill enhances the person's ability to concentrate on multiple or complex tasks, allowing them to maintain sharp mental clarity even in the midst of distractions. It improves their cognitive endurance over longer periods."
+        },
+        {
+            "name": "Cognitive Acceleration",
+            "description": "This skill boosts the person’s cognitive processing speed, allowing them to think and react faster than normal. Whether it’s solving puzzles, formulating plans, or making quick decisions in a crisis, this ability increases mental agility."
+        },
+        {
+            "name": "Mind Palace",
+            "description": "The person can create a mental construct or “palace” in which they store vast amounts of information for easy retrieval. This skill enhances memory organization and recall, allowing for detailed recollection of stored knowledge, even under stressful conditions."
+        },
+        {
+            "name": "Eidetic Memory",
+            "description": "This skill gives the person near-perfect recall of images, sounds, or details they’ve seen or experienced. They can accurately remember specific information after just one exposure, making them incredibly efficient learners."
+        },
+        {
+            "name": "Meditation",
+            "description": "Meditation allows the person to calm and center their mind, reducing mental fatigue and clearing their thoughts. Regular use of this skill enhances their mental clarity, emotional balance, and overall cognitive health."
+        },
+        {
+            "name": "Perceptual Speed",
+            "description": "This skill enhances the person's ability to quickly perceive, interpret, and respond to visual or auditory stimuli. Whether it’s reading a situation or identifying patterns, they can process sensory information faster than most people."
+        },
+        {
+            "name": "Logic Enhancement",
+            "description": "The person’s ability to reason and make sound, logical decisions is heightened. This skill strengthens their capacity for deductive reasoning, enabling them to navigate complex problems or situations with clear, rational thought."
+        },
+        {
+            "name": "Problem Solving",
+            "description": "This skill improves the person’s ability to analyze problems from different angles and come up with effective solutions. It enhances their creativity and critical thinking, making it easier to overcome obstacles and find innovative answers."
+        },
+        {
+            "name": "Pattern Recognition",
+            "description": "The person can detect and understand patterns in seemingly random information. This skill enhances their ability to predict outcomes, identify trends, or solve problems by recognizing relationships between data points that others might miss."
+        },
+        {
+            "name": "Intuition Enhancement",
+            "description": "This skill sharpens the person’s ability to make quick, instinctive decisions based on subconscious knowledge. It heightens their gut feelings and allows them to act decisively, even in situations where logic or data is incomplete."
+        },
+        {
+            "name": "Multi-Tasking",
+            "description": "Multi-Tasking allows the person to manage multiple tasks or problems simultaneously without losing effectiveness. This skill improves mental compartmentalization and enables the person to maintain high cognitive function while juggling different activities."
+        },
+        {
+            "name": "Analytical Thinking",
+            "description": "The person’s ability to break down complex problems or ideas into smaller, manageable parts is enhanced. This skill makes them excellent at dissecting challenges, reviewing all components, and forming solutions based on data and logic."
+        },
+        {
+            "name": "Cognitive Flexibility",
+            "description": "The person’s ability to switch between different thought processes or mental frameworks is enhanced. This skill helps them adapt their thinking when presented with new information, allowing for faster adjustments to problem-solving strategies."
+        },
+        {
+            "name": "Creative Thinking",
+            "description": "This skill boosts the person’s ability to think outside the box and come up with innovative ideas or solutions. Creative Thinking allows them to approach challenges from unique perspectives, often finding unconventional but effective answers."
+        },
+        {
+            "name": "Memory Reinforcement",
+            "description": "The person’s ability to solidify and store memories over the long term is enhanced. This skill helps prevent forgetting key information and ensures that knowledge or experiences are better retained for future use."
+        },
+        {
+            "main_name": "Mental Recovery",
+            "main_description": "These skills help characters regain mental strength, recover from emotional or psychological trauma, and restore cognitive clarity after stress or damage."
+        },
+        {
+            "name": "Mental Recovery",
+            "description": "This skill allows the person to regenerate mental stamina over time, helping them recover from fatigue caused by excessive mental strain. Whether after long periods of concentration, mental duress, or psychic attacks, this skill restores their clarity of thought and cognitive sharpness."
+        },
+        {
+            "name": "Trauma Coping",
+            "description": "Trauma Coping enhances the person’s ability to process and heal from emotional or psychological trauma. This skill allows them to face and overcome distressing memories, events, or experiences, reducing the long-term effects of trauma on their mental well-being."
+        },
+        {
+            "name": "Mental Resilience Recovery",
+            "description": "This skill allows the person to rebuild their mental resilience after facing prolonged stress or hardship. After being emotionally or mentally worn down, they can gradually regain their inner strength, restoring their ability to face new challenges with confidence."
+        },
+        {
+            "name": "Clarity Restoration",
+            "description": "After periods of confusion, overthinking, or mental overload, this skill helps the person regain clarity of mind. It allows them to clear away mental clutter, focus their thoughts, and make sense of chaotic or overwhelming situations."
+        },
+        {
+            "name": "Stress Recovery",
+            "description": "This skill enables the person to recover from the mental and emotional effects of stress more quickly. Whether from a high-pressure situation or accumulated stress over time, it reduces the toll stress takes on their mental health and restores a sense of calm and balance."
+        },
+        {
+            "name": "Panic Recovery",
+            "description": "After experiencing intense fear or panic, this skill helps the person regain composure and control. It enables them to calm down more quickly and recover from the mental exhaustion that comes from extreme anxiety or terror."
+        },
+        {
+            "name": "Mind Stabilization",
+            "description": "Mind Stabilization helps the person regain mental equilibrium after experiencing psychological or psychic disturbances. Whether they’ve been subjected to mental attacks, psychic damage, or spells that unbalance their mind, this skill restores their mental stability and coherence."
+        },
+        {
+            "name": "Cognitive Refresh",
+            "description": "Cognitive Refresh helps the person refresh their mental focus and stamina after a period of intense cognitive effort. It’s like giving their brain a rest and recharge, improving their ability to concentrate and perform complex mental tasks after a break."
+        },
+        {
+            "main_name": "Mental Manipulation (General, Non-Magical Mind Attacks)",
+            "main_description": "This category encompasses a wide range of techniques used to influence, control, or distort a target's thoughts, perceptions, and behavior through psychological or non-magical means. From subtle persuasion and coercion to more aggressive methods like brainwashing and hypnosis, these skills are designed to undermine the target's mental defenses and shape their beliefs or actions. Whether through carefully chosen words, repeated conditioning, or manipulation of emotions and reality, these tactics leave the target vulnerable to external influence while often unaware of the manipulation taking place."
+        },
+        {
+            "name": "Hypnosis",
+            "description": "The person uses verbal cues, suggestion, and focus techniques to put the target in a trance-like state, where they become highly suggestible. This form of hypnosis is non-magical and relies on psychological conditioning to control or influence the target’s behavior and thoughts."
+        },
+        {
+            "name": "Thought Insertion",
+            "description": "Through the use of persuasive conversation, repetition, or subliminal messaging, the person plants ideas into the target’s mind in such a way that the target believes the thoughts are their own. This can be used to steer decisions or manipulate perceptions."
+        },
+        {
+            "name": "Brainwashing",
+            "description": "A non-magical process that involves breaking down the target’s will through isolation, repetition, and manipulation of information. The person can gradually reshape the target’s beliefs, making them adopt new loyalties or ideals through psychological techniques such as repetition, sleep deprivation, and social pressure."
+        },
+        {
+            "name": "Gaslighting",
+            "description": "The person subtly manipulates the target’s perception of reality by denying or twisting facts, leading the target to doubt their own memory, judgment, or sanity. Over time, this can make the target question what is real and depend on the manipulator for truth."
+        },
+        {
+            "name": "Coercion",
+            "description": "Through intimidation, threats, or manipulation, the person forces the target into making choices or taking actions against their will. Coercion works by breaking down the target’s sense of autonomy and leaving them feeling they have no other option but to comply."
+        },
+        {
+            "name": "Mind Conditioning",
+            "description": "A process by which the person gradually alters the target’s behavior or beliefs through repetition, positive/negative reinforcement, or social influence. Over time, the target adopts new ways of thinking or acting based on conditioning techniques."
+        },
+        {
+            "name": "Persuasion Mastery",
+            "description": "Through highly advanced communication and psychological techniques, the person can manipulate the target’s emotions, desires, or opinions. This could be done through charisma, emotional appeal, or manipulating the target’s logic and vulnerabilities."
+        },
+        {
+            "name": "Subliminal Influence",
+            "description": "The person can subtly influence the target by embedding hidden suggestions in communication, media, or even everyday conversations. These subliminal messages bypass the target’s conscious defenses and work to change their behavior or beliefs over time."
+        },
+        {
+            "name": "Deception Manipulation",
+            "description": "The person is adept at using deception, lying, or creating false narratives to manipulate the target’s understanding of a situation. This skill focuses on misdirection and convincing the target of a reality that benefits the person’s goals."
+        },
+        {
+            "name": "Indoctrination",
+            "description": "This skill focuses on deeply embedding a set of beliefs into the target's mind over time through constant exposure to specific teachings, values, or ideologies. The person gradually shapes the target’s worldview until the target adopts these beliefs as their own."
+        },
+        {
+            "name": "Isolation Manipulation",
+            "description": "The person isolates the target from outside influences, controlling the information they receive and creating a bubble where only the person’s influence matters. This leads to dependency on the person for opinions, guidance, and decisions."
+        },
+        {
+            "name": "Cognitive Dissonance Induction",
+            "description": "The person creates mental discomfort in the target by presenting conflicting ideas or values, causing the target to feel confused and unsettled. This discomfort weakens the target’s resistance to persuasion, making them more likely to adopt the person’s beliefs to resolve the internal conflict."
+        },
+        {
+            "name": "Propaganda Influence",
+            "description": "The person bombards the target with biased, misleading, or one-sided information, aiming to manipulate their worldview. Over time, the constant exposure to this propaganda alters the target’s perception of reality and influences their actions."
+        }
+    ]
