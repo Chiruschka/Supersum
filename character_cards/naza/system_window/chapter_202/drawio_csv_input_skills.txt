@@ -1,0 +1,83 @@
+# label: %Skill%<hr>%Level%
+# style: shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;
+# width: 140
+# height: 60
+# padding: 0
+# nodespacing: 0
+# ignore: Gesamtexperience
+Skill,Level,Experience
+Thread Arts,7,28
+Thread Creation,4,10
+Mana Sense,26,351
+Mana Manipulation,20,210
+Mana Absorption,15,120
+Mana Emission,17,153
+Mana Theory,4,10
+Mana Shield,11,66
+Chanting,13,91
+Spell-Crafting,15,120
+Etiquette,9,45
+Physics,23,276
+Muscle Strengthening,15,120
+Cold Resistance,9,45
+Heat Resistance,8,36
+Hex Resistance,13,91
+Curse Resistance,16,136
+Poison Resistance,23,276
+Corrosion Resistance,6,21
+Abnormal Status Resistance,5,15
+Focus Enhancement,20,210
+Cognitive Acceleration,9,45
+Problem Solving,18,171
+Pattern Recognition,12,78
+Multi-Tasking,16,136
+Analytical Thinking,11,66
+Concentration,28,406
+Meditation,22,253
+Pain Resistance,19,190
+Stress Resistance,17,153
+Sleep Resistance,22,253
+Flower Arrangement,19,190
+Wood Carving,18,171
+Poison Crafting,16,136
+Charm,5,15
+Active Listening,4,10
+Humor,17,153
+Confidence,9,45
+Patience,20,210
+Discipline,23,276
+Grit,22,253
+Tenacity,24,300
+Self-Motivation,20,210
+Reading,30,465
+Writing,29,435
+Mathematics,34,595
+Linguistics,27,378
+First Aid,14,105
+Running,10,55
+Swimming,7,28
+Climbing,10,55
+Sleight of Hand,9,45
+Dashing,8,36
+Medicine,20,210
+Herbalism,36,666
+Gardening,35,630
+Toxicology,33,561
+Biology,40,820
+Alchemy,54,1485
+Insect Taming,13,91
+Bird Training,7,28
+Cooking,9,45
+Baking,10,55
+Sewing,5,15
+Cleaning,12,78
+Sign Language,27,378
+Lip Reading,28,406
+Botany,39,780
+Brewing,30,465
+Foraging,19,190
+Landscaping,8,36
+Composting,11,66
+Lockpicking,14,105
+Sneaking,15,120
+
