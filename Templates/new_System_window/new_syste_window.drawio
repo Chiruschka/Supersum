@@ -1,0 +1,936 @@
+<mxfile host="65bd71144e">
+    <diagram id="kI3NGxD9ZKFqzrwl74v0" name="Page-1">
+        <mxGraphModel dx="808" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="247" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="20" width="800" height="2590" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="640" height="2590" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="640" height="2590" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px;&quot;&gt;General&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;arcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="50" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;Attributes&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;fontColor=#000000;arcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="420" width="580" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#000000&quot;&gt;Divinity Line&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;arcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="1340" y="50" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;Janina M. Leonandra&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="129" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Name&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="100" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="130" width="190" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;-&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="129" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;Locked&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="100" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="130" width="140" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;142&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="188" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Level&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="159" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="189" width="190" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="23,400" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="247" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="23,336" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="247" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="248" width="190" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Experience&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="218" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="180" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="306" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="180" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="306" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="307" width="190" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Health Points&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="277" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="130" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="365" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="130" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="365" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="366" width="200" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Mana Points&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="336" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="-" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="246" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="-" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="246" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;Locked&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="217" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;" parent="1" source="32" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="247" width="240" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="-" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="305" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="-" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="305" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;Locked&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="276" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="306" width="240" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="-" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="364" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="-" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;strokeWidth=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="364" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;Locked&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="335" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="365" width="240" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Mystic Skills&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;arcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="187" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;42&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="479" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Perception&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="450" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="480" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;b&gt;Skills&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;fontColor=#000000;arcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="830" width="600" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;8&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="479" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Strength&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="450" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="480" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;13&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="538" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Intelligence&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="509" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="539" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;17&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="538" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Dexterity&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="509" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="539" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;Locked&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="597" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Essence&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="568" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="598" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;Locked&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="597" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Aura&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="568" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="598" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;19&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="656" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Charisma&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="627" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="657" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;18&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="656" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Constitution&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="627" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="657" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;15&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="715" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Luck&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="686" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="716" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;34&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="715" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Spirit&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="686" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="716" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;Locked (141)&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="774" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Free Status Points&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="745" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="775" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;Locked&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="774" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Defense&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="745" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="775" width="210" height="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Greater Mana Sense" Level="51" Experience="1326" placeholders="1" id="79">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="860" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mana Manipulation" Level="12" Experience="78" placeholders="1" id="80">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="920" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mana Absorption" Level="13" Experience="91" placeholders="1" id="81">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="980" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mana Emission" Level="14" Experience="105" placeholders="1" id="82">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1040" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mana Painting" Level="9" Experience="45" placeholders="1" id="83">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1100" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mana Theory" Level="3" Experience="6" placeholders="1" id="84">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="860" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Emotional (Mana) Perception" Level="20" Experience="210" placeholders="1" id="85">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="920" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Chanting" Level="12" Experience="78" placeholders="1" id="86">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="980" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Spell-Crafting" Level="14" Experience="105" placeholders="1" id="87">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1040" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Calligraphy" Level="21" Experience="231" placeholders="1" id="88">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1100" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Acting" Level="9" Experience="45" placeholders="1" id="89">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1160" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Dancing" Level="8" Experience="36" placeholders="1" id="90">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1220" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Drawing" Level="52" Experience="1378" placeholders="1" id="91">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1280" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Painting" Level="63" Experience="2016" placeholders="1" id="92">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1340" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Poetry" Level="17" Experience="153" placeholders="1" id="93">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1400" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Sculpting" Level="18" Experience="171" placeholders="1" id="94">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1460" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Violin Playing" Level="18" Experience="171" placeholders="1" id="95">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="860" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="First Aid" Level="4" Experience="10" placeholders="1" id="96">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="920" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Conflict Avoidance" Level="10" Experience="55" placeholders="1" id="97">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="980" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Social Perception" Level="22" Experience="253" placeholders="1" id="98">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1040" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Active Listening" Level="32" Experience="528" placeholders="1" id="99">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1100" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Relationship Building" Level="9" Experience="45" placeholders="1" id="100">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1160" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Empathy" Level="42" Experience="903" placeholders="1" id="101">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1220" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Detect Lies" Level="28" Experience="406" placeholders="1" id="102">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1280" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Psychology" Level="32" Experience="528" placeholders="1" id="103">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1340" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Convincing" Level="7" Experience="28" placeholders="1" id="104">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1400" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Linguistics" Level="5" Experience="15" placeholders="1" id="105">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1460" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mathematics" Level="7" Experience="28" placeholders="1" id="106">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1520" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Culture" Level="8" Experience="36" placeholders="1" id="107">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1580" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="History" Level="5" Experience="15" placeholders="1" id="108">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1640" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Philosophy" Level="9" Experience="45" placeholders="1" id="109">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1700" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Politics" Level="10" Experience="55" placeholders="1" id="110">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1760" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Major Aesthetics" Level="58" Experience="1711" placeholders="1" id="111">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1820" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Etiquette" Level="16" Experience="136" placeholders="1" id="112">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1880" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Ethics" Level="6" Experience="21" placeholders="1" id="113">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="1940" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Martial Arts" Level="3" Experience="6" placeholders="1" id="114">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="2000" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Sword Arts" Level="5" Experience="15" placeholders="1" id="115">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="2060" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Bow Arts" Level="4" Experience="10" placeholders="1" id="116">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="2120" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Running" Level="10" Experience="55" placeholders="1" id="117">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="2180" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Dashing" Level="5" Experience="15" placeholders="1" id="118">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="2240" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Swimming" Level="3" Experience="6" placeholders="1" id="119">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="2300" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Dodging" Level="6" Experience="21" placeholders="1" id="120">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;flipH=0;flipV=0;direction=east;gradientColor=none;top=1;backgroundOutline=0;enumerate=0;treeMoving=0;metaEdit=0;fixDash=1;" parent="1" vertex="1">
+                        <mxGeometry x="680" y="730" width="150" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Greater Emotional Intelligence" Level="30" Experience="465" placeholders="1" id="121">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="920" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Compassion" Level="34" Experience="595" placeholders="1" id="122">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="980" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Self-Awareness" Level="17" Experience="153" placeholders="1" id="123">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1040" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Cleaning" Level="3" Experience="6" placeholders="1" id="124">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1100" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Cooking" Level="5" Experience="15" placeholders="1" id="125">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1160" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Baking" Level="3" Experience="6" placeholders="1" id="126">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1220" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Tailoring" Level="17" Experience="153" placeholders="1" id="127">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1280" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Sewing" Level="13" Experience="91" placeholders="1" id="128">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1340" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Knitting" Level="12" Experience="78" placeholders="1" id="129">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1400" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Quilting" Level="14" Experience="105" placeholders="1" id="130">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1460" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Pattern Making" Level="12" Experience="78" placeholders="1" id="131">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1520" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Woodworking" Level="11" Experience="66" placeholders="1" id="132">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1580" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Bookbinding" Level="13" Experience="91" placeholders="1" id="133">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1640" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Charm" Level="17" Experience="153" placeholders="1" id="134">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1700" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Cosmetics" Level="18" Experience="171" placeholders="1" id="135">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1760" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Fashion Sense" Level="15" Experience="120" placeholders="1" id="136">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1820" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Literacy" Level="39" Experience="780" placeholders="1" id="137">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1880" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Cold Resistance" Level="19" Experience="190" placeholders="1" id="138">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="1940" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Heat Resistance" Level="18" Experience="171" placeholders="1" id="139">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="2000" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Hex Resistance" Level="19" Experience="190" placeholders="1" id="140">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="2060" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Disease Resistance" Level="20" Experience="210" placeholders="1" id="141">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="2120" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Abnormal Status Resistance" Level="13" Experience="91" placeholders="1" id="142">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="2180" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Curse Resistance" Level="21" Experience="231" placeholders="1" id="143">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="2240" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Poison Resistance" Level="22" Experience="253" placeholders="1" id="144">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="2300" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Corrosion Resistance" Level="18" Experience="171" placeholders="1" id="145">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1160" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Deduction" Level="15" Experience="120" placeholders="1" id="146">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1220" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Analytical Thinking" Level="14" Experience="105" placeholders="1" id="147">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1280" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Comprehension" Level="16" Experience="136" placeholders="1" id="148">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1340" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Critical Thinking" Level="15" Experience="120" placeholders="1" id="149">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1400" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Learning Aptitude" Level="10" Experience="55" placeholders="1" id="150">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1460" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Memory Retention" Level="7" Experience="28" placeholders="1" id="151">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1520" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Cognitive Flexibility" Level="16" Experience="136" placeholders="1" id="152">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1580" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Observation" Level="27" Experience="378" placeholders="1" id="153">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1640" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Communication" Level="7" Experience="28" placeholders="1" id="154">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1700" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Sociology" Level="10" Experience="55" placeholders="1" id="155">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1760" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Vitality Enhancement" Level="8" Experience="36" placeholders="1" id="156">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1820" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Flexibility Enhancement" Level="10" Experience="55" placeholders="1" id="157">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1880" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Stamina Enhancement" Level="7" Experience="28" placeholders="1" id="158">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="1940" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Balance Enhancement" Level="6" Experience="21" placeholders="1" id="159">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2000" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Pain Resistance" Level="17" Experience="153" placeholders="1" id="160">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2060" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Stress Resistance" Level="31" Experience="496" placeholders="1" id="161">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2120" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Sleep Resistance" Level="20" Experience="210" placeholders="1" id="162">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2180" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Psi Resistance" Level="10" Experience="55" placeholders="1" id="163">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2240" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Panic Resistance" Level="34" Experience="595" placeholders="1" id="164">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2300" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mind Over Matter" Level="18" Experience="171" placeholders="1" id="165">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2360" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Fear Resistance" Level="19" Experience="190" placeholders="1" id="166">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2420" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Despair Resistance" Level="22" Experience="253" placeholders="1" id="167">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2480" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Grit" Level="19" Experience="190" placeholders="1" id="168">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="70" y="2540" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Tenacity" Level="14" Experience="105" placeholders="1" id="169">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1520" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Perseverance" Level="15" Experience="120" placeholders="1" id="170">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1580" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Fortitude" Level="17" Experience="153" placeholders="1" id="171">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1640" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Determination" Level="16" Experience="136" placeholders="1" id="172">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1700" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Patience" Level="14" Experience="105" placeholders="1" id="173">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1760" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Self-Motivation" Level="12" Experience="78" placeholders="1" id="174">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1820" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Focus Under Pressure" Level="11" Experience="66" placeholders="1" id="175">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1880" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Concentration" Level="9" Experience="45" placeholders="1" id="176">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="1940" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Focus Enhancement" Level="8" Experience="36" placeholders="1" id="177">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2000" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Meditation" Level="7" Experience="28" placeholders="1" id="178">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2060" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Perceptual Speed" Level="5" Experience="15" placeholders="1" id="179">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2120" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Problem Solving" Level="13" Experience="91" placeholders="1" id="180">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2180" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Pattern Recognition" Level="18" Experience="171" placeholders="1" id="181">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2240" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Intuition Enhancement" Level="22" Experience="253" placeholders="1" id="182">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2300" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Creative Thinking" Level="28" Experience="406" placeholders="1" id="183">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2360" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mental Resilience Recovery" Level="27" Experience="378" placeholders="1" id="184">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2420" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Clarity Restoration" Level="23" Experience="276" placeholders="1" id="185">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2480" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Stress Recovery" Level="29" Experience="435" placeholders="1" id="186">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="215" y="2540" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Panic Recovery" Level="26" Experience="351" placeholders="1" id="187">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="2360" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mind Stabilization" Level="21" Experience="231" placeholders="1" id="188">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="2420" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Mental Recovery" Level="17" Experience="153" placeholders="1" id="189">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="360" y="2480" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Begging" Level="6" Experience="21" placeholders="1" id="190">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="2480" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Emotional Healing" Level="10" Experience="55" placeholders="1" id="191">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="2360" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Creative Writing" Level="19" Experience="190" placeholders="1" id="192">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="505" y="2420" width="145" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="193" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="860" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="860" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="870" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="880" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="890" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="900" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="910" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="870" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="880" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="890" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="900" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;shadow=0;fillStyle=auto;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="910" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <UserObject label="%Skill%&lt;hr&gt;%Level%" Skill="Dodging" Level="6" Experience="21" placeholders="1" id="248">
+                    <mxCell style="shape=partialRectangle;whiteSpace=wrap;html=1;shadow=0;comic=0;pointerEvents=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;fontColor=#000000;flipH=0;flipV=0;direction=east;gradientColor=none;top=1;backgroundOutline=0;enumerate=0;treeMoving=0;metaEdit=0;fixDash=1;" parent="1" vertex="1">
+                        <mxGeometry x="690" y="740" width="150" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="254" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1340" y="80" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;-&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="254" vertex="1">
+                    <mxGeometry y="29.491525423728813" width="350" height="30.508474576271183" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;Locked&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="254" vertex="1">
+                    <mxGeometry width="350" height="30.508474576271183" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="254" vertex="1">
+                    <mxGeometry x="87.5" y="29.491525423728813" width="175" height="1.0169491525423728" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="950" y="80" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;-&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="256" vertex="1">
+                    <mxGeometry y="29.491525423728813" width="350" height="30.508474576271183" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;Locked&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="256" vertex="1">
+                    <mxGeometry width="350" height="30.508474576271183" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="256" vertex="1">
+                    <mxGeometry x="87.5" y="29.491525423728813" width="175" height="1.0169491525423728" as="geometry"/>
+                </mxCell>
+                <mxCell id="265" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="950" y="140" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="266" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;-&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="265" vertex="1">
+                    <mxGeometry y="29.49152542372881" width="350" height="30.50847457627118" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;Locked&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="265" vertex="1">
+                    <mxGeometry width="350" height="30.50847457627118" as="geometry"/>
+                </mxCell>
+                <mxCell id="268" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="265" vertex="1">
+                    <mxGeometry x="87.5" y="29.49152542372881" width="175" height="1.0169491525423726" as="geometry"/>
+                </mxCell>
+                <mxCell id="269" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="950" y="200" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="270" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;-&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;" parent="269" vertex="1">
+                    <mxGeometry y="29.491525423728813" width="350" height="30.508474576271183" as="geometry"/>
+                </mxCell>
+                <mxCell id="271" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;Locked&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;" parent="269" vertex="1">
+                    <mxGeometry width="350" height="30.508474576271183" as="geometry"/>
+                </mxCell>
+                <mxCell id="272" value="" style="line;strokeWidth=1;html=1;shadow=0;comic=0;strokeColor=#000000;fontSize=17;fillColor=#FFFFFF;" parent="269" vertex="1">
+                    <mxGeometry x="87.5" y="29.49" width="175" height="0.51" as="geometry"/>
+                </mxCell>
+                <UserObject label="%step%" step="Hello World" placeholders="1" id="316">
+                    <mxCell style="shape=%shape%;fillColor=shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;;strokeColor=%stroke%;sketch=0;fillStyle=auto;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="260" y="2650" width="160" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="%step%" step="Am I alive?" placeholders="1" id="317">
+                    <mxCell style="shape=%shape%;fillColor=shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#FFFFFF;routingCenterX=-0.5;shadow=0;comic=0;strokeColor=#000000;fontSize=17;direction=west;;strokeColor=%stroke%;sketch=0;fillStyle=auto;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="260" y="2680" width="160" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="Mgf3xfq3es3C640tXXtO" name="Page-2">
+        <mxGraphModel dx="385" dy="292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4CHaSaDgVjYG0DkV91nV-4" value="" style="group123" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="150" y="110" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4CHaSaDgVjYG0DkV91nV-1" value="skillnam" style="rounded=0;shadow=0;comic=0;sketch=0;fillStyle=auto;strokeColor=#FFFFFF;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;gradientColor=none;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;" parent="4CHaSaDgVjYG0DkV91nV-4" vertex="1">
+                    <mxGeometry width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4CHaSaDgVjYG0DkV91nV-2" value="level" style="rounded=0;shadow=0;comic=0;sketch=0;fillStyle=auto;strokeColor=#FFFFFF;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;gradientColor=none;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;" parent="4CHaSaDgVjYG0DkV91nV-4" vertex="1">
+                    <mxGeometry y="30" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4CHaSaDgVjYG0DkV91nV-3" value="" style="endArrow=none;html=1;fontSize=14;fontColor=#000000;labelBackgroundColor=#000000;strokeColor=#000000;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="4CHaSaDgVjYG0DkV91nV-4" source="4CHaSaDgVjYG0DkV91nV-2" target="4CHaSaDgVjYG0DkV91nV-2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="20" y="50" as="sourcePoint"/>
+                        <mxPoint x="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
