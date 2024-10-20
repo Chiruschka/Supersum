@@ -3,128 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapters Index</title>
+    <title>Chapter 186</title>
+    <style>
+        /* Basic Reset */
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        /* Style for the card containers */
+        .character-card-container {
+            margin-bottom: 20px;
+        }
+
+        /* Style for the chapter info containers */
+        .chapter-info-container {
+            margin-bottom: 20px;
+        }
+    </style>
+
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function loadNavbar() {
+            fetch('/Supersum/header_footer_scrollbar/navigationbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadFooter() {
+            fetch('/Supersum/header_footer_scrollbar/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                });
+        }
+
+        function loadScrollButton() {
+            fetch('/Supersum/header_footer_scrollbar/scrolling_top.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('scroll-button-placeholder').innerHTML = data;
+                });
+        }
+    </script>
+
+    <script>
+        // Function to load chapter info dynamically
+        function loadChapterInfo(url, placeholderId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(placeholderId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading chapter info:', error));
+        }
+
+        // Load chapter information when the document is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            loadChapterInfo('../../chapter_information_cards/chapter_186_info/186.html', 'chapter-186-information-placeholder');
+        });
+    </script>
+
+    <script>
+        // Function to load a character card dynamically
+        function loadCharacterCard(url, placeholderId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(placeholderId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading character card:', error));
+        }
+
+        // Load multiple character cards when the document is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCharacterCard('../../character_cards/alexander/alexander_young_2.html', 'alexander-card-placeholder');
+        });
+
+    </script>
+
+
+
 </head>
 
-<body class="text-white" style="background-color: #3b3a3a;">
+<body class="text-white flex flex-col min-h-screen" style="background-color: #3b3a3a;" onload="loadNavbar(); loadFooter(); loadScrollButton();">
 
-    <!-- Navigation -->
-    <div class="top-0 left-0 w-full flex items-center justify-center bg-gray-800 p-4 shadow-lg z-50" style="background-color: #616161;">
-      
-      <a href="https://chiruschka.github.io/Supersum/" class="inline-block mx-2 w-32 py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold text-center hover:bg-gray-900 transition duration-300" style="color: #F1F1F1;">
-        <span>Home</span>
-      </a>
+    <!-- Placeholder for the Navbar -->
+    <div id="navbar-placeholder"></div>
 
-      <a href="https://chiruschka.github.io/Supersum/chapters/chapters_index/chapters_index" class="inline-block mx-2 w-32 py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold text-center hover:bg-gray-900 transition duration-300" style="color: #F1F1F1;">
-        <span>Chapters</span>
-      </a>
+    <!-- Placeholder for the Scroll to Top Button -->
+    <div id="scroll-button-placeholder"></div>
 
-      <a href="#orbis" class="inline-block mx-2 w-32 py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold text-center hover:bg-gray-900 transition duration-300" style="color: #F1F1F1;">
-        <span>Orbis</span>
-      </a>
+    <!-- Background Rectangle -->
+    <div class="relative p-4 flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161; flex-grow: 1;">
 
-      <a href="#contact" class="inline-block mx-2 w-32 py-4 bg-gray-800 rounded-lg shadow-lg border-gray-900 font-bold text-center hover:bg-gray-900 transition duration-300" style="color: #F1F1F1;">
-        <span>Contact</span>
-      </a>
+        <!-- Placeholder for chapter info -->
+        <div class="chapter-info-container" id="chapter-186-information-placeholder"></div>
+
+        <!-- Placeholder for Janina's character card -->
+        <div class="character-card-container" id="alexander-card-placeholder"></div>
+
+
+
 
     </div>
 
-    <!-- Floating Button / Scrolling to the top -->
-    <a href="#top" class="fixed bottom-4 right-4 font-bold py-2 px-4 rounded-full shadow-lg transition duration-300 z-50" style="background-color: #616161; color: #F1F1F1;">
-      ↑ Back to Top
-    </a>
-
-    <!-- Background Rectangle-->
-    <div class="relative flex flex-col items-center justify-center rounded-lg p-8 w-full max-w-7xl mx-auto mb-6 mt-12 shadow-lg" style="background-color: #616161;">
-
-        <!-- Chapter info text -->
-        <div class="max-w-6xl mx-auto border-4 border-green-300 rounded-lg shadow-lg p-6 mb-6">
-            <div class="flex items-center">
-                <div class="w-20 h-20 flex justify-center items-center rounded-full border-4 border-green-300" style="background-color: #3b3a3a;">
-                    <!-- Icon (Could be a chapter number or a theme-specific image) -->
-                    <span class="text-2xl font-bold" style="color: #F1F1F1;"> 186 </span>
-                </div>
-                <div class="ml-4">
-                    <h2 class="text-3xl font-serif" style="color: #F1F1F1;">Redemption</h2>
-                </div>
-            </div>
-            
-            <div class="grid grid-cols-2 gap-4 mt-4 md:grid-cols-2 sm:grid-cols-1">
-                
-                <div>
-                    <p class="text-xl mb-2"><span class="font-bold text-green-300 text-xl">Word Count:</span> 3,000</p>
-                </div>
-
-                <div>
-                    <p class="text-xl mb-2"><span class="font-bold text-green-300 text-xl">Setting:</span> Leonandra Estate, Main Mansion - Tea Room</p>
-                </div>
-
-                <div>
-                    <p class="text-xl mb-2"><span class="font-bold text-green-300 text-xl">POV Character:</span> Alexander K. Leonandra</p>
-                </div>
-
-                <div>
-                    <p class="text-xl mb-2"><span class="font-bold text-green-300 text-xl">Key Event:</span> Hours after deciding on the heir candidate</p>
-                </div>
-
-                <div class="col-span-2">
-                    <h3 class="text-green-300 text-xl font-bold mb-4 border-b-2 border-green-300">Synopsis</h3>
-                    <p class="text-xl">In a tense family meeting, Alexander finds himself at the center of his siblings' and parents' anger.</p>
-                </div>
-                
-            </div>
-        </div>
-
-
-      <!-- Character Card Template -->
-       <!-- Outer Border -->
-       <div class="max-w-7xl mx-auto border-4 rounded-lg shadow-lg p-7 flex flex-col grid grid-cols-2 items-center mb-10" style="border-color: #86efac;">
-  
-        <!-- Left Side: Character Image -->
-        <div class="w-full flex justify-center items-center rounded-md border-4 border-transparent">
-            <img src="../cheat_sheet_ressources/characters/alexander_2.png" alt="Character" class="w-1/2 h-auto object-contain">
-        </div>
-        
-      
-        <!-- Right Side: Character Information -->
-        <div class="w-full">
-          <h2 class="text-3xl font-serif mb-2" style="color: #F1F1F1;" >Alexander K. Leonandra</h2>
-          <p class="font-serif mb-4 text-xl" style="color: #F1F1F1;">4th child of the Leonandra Household</p>
-      
-          <!-- Character Details -->
-          <div class="grid grid-cols-1 gap-2">
-    
-            <!-- Race -->
-            <h3 class="text-xl font-bold mb-2 border-b-2" style="color: #86efac; border-color: #86efac;">Race</h3>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Main Race:</span> Beast kin</p>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Sub Race:</span> Canine kin</p>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Specific Race:</span> Wolf kin</p>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Secondary Characteristics:</span> Wolf Tail / Ears</p>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Secondary Strengths:</span> Strong Sense of Smell <br> Able to sense Pheromones</p>
-
-            <!-- Appearance -->
-            <h3 class="text-xl font-bold mb-2 border-b-2" style="color: #86efac; border-color: #86efac;">Appearance</h3>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Hair (fur) Color:</span> Snow-white</p>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Eye Color:</span> Golden</p>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Size:</span> 1.70m (5.6ft)</p>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Sex:</span> Male</p>
-    
-            <!-- Ability & Skills -->
-            <h3 class="text-green-400 text-xl font-bold mb-2 border-b-2" style="color: #86efac; border-color: #86efac;">Ability & Skills</h3>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Combat Specialization:</span> Martial Arts, Magic, and Alchemy</p>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Ability & Skills:</span> Engineering(?) and Chemistry</p>
-    
-            <!-- Miscellaneous -->
-            <h3 class="text-xl font-bold mb-2 border-b-2" style="color: #86efac; border-color: #86efac;">Miscellaneous</h3>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Interests:</span> Sweets, Technology, and Freedom</p>
-            <p style="color: #F1F1F1;"><span class="font-bold" style="color: #86efac;">Identity:</span> Heir (Candidate) & Reincarnated from Earth</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder" style="width: 100%; flex-shrink: 0;"></div>
 
 </body>
-
 </html>
